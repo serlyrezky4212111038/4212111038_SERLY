@@ -53,7 +53,7 @@ accuracy = accuracy_score(y_test, y_pred)
 conf_matrix = confusion_matrix(y_test, y_pred)
 precision = precision_score(y_test, y_pred, average='weighted')
 
-# Display results
+# Menampilkan nilai akurasi, presisi serta confusion matrix
 print("Accuracy:", accuracy)
 print("Confusion Matrix:\n", conf_matrix)
 print("Precision:", precision)
